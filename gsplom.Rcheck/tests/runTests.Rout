@@ -1,0 +1,42 @@
+
+R Under development (unstable) (2014-03-08 r65144) -- "Unsuffered Consequences"
+Copyright (C) 2014 The R Foundation for Statistical Computing
+Platform: x86_64-apple-darwin10.8.0 (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> BiocGenerics:::testPackage("gsplom")
+Computing distance correlation up through sample 20 of 80...
+Computing distance correlation up through sample 40 of 80...
+Computing distance correlation up through sample 60 of 80...
+Computing distance correlation up through variable 1 of 20...
+Computing distance correlation up through variable 1 of 20...
+
+
+RUNIT TEST PROTOCOL -- Sat Mar  8 20:15:32 2014 
+*********************************************** 
+Number of test functions: 5 
+Number of errors: 0 
+Number of failures: 0 
+
+ 
+1 Test Suite : 
+gsplom RUnit Tests - 5 test functions, 0 errors, 0 failures
+Number of test functions: 5 
+Number of errors: 0 
+Number of failures: 0 
+There were 19 warnings (use warnings() to see them)
+> 
+> proc.time()
+   user  system elapsed 
+  2.810   0.083   3.113 

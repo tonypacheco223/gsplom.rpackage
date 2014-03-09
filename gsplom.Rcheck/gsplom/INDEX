@@ -1,0 +1,4 @@
+dcorMatrix              Compute Distance Correlation Matrix.
+dcorMatrixNA            Compute Distance Correlation Matrix with
+                        Missing Values in Data.
+dcorSingle              Single Pair Distance Correlation.

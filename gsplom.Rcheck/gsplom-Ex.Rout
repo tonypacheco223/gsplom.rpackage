@@ -1,0 +1,104 @@
+
+R Under development (unstable) (2014-03-08 r65144) -- "Unsuffered Consequences"
+Copyright (C) 2014 The R Foundation for Statistical Computing
+Platform: x86_64-apple-darwin10.8.0 (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> pkgname <- "gsplom"
+> source(file.path(R.home("share"), "R", "examples-header.R"))
+> options(warn = 1)
+> library('gsplom')
+> 
+> base::assign(".oldSearch", base::search(), pos = 'CheckExEnv')
+> cleanEx()
+> nameEx("dcorMatrix")
+> ### * dcorMatrix
+> 
+> flush(stderr()); flush(stdout())
+> 
+> ### Name: dcorMatrix
+> ### Title: Compute Distance Correlation Matrix.
+> ### Aliases: dcorMatrix
+> 
+> ### ** Examples
+> 
+> ## Load data so that samples (countries) are columns and econometric
+> ##   variables are rows.
+> M <- t(LifeCycleSavings)
+> ## Compute all pairs distance correlation between econometric variables.
+> DCOR <- dcorMatrix(M)
+Computing distance correlation up through sample 20 of 50...
+Computing distance correlation up through sample 40 of 50...
+> 
+> 
+> 
+> cleanEx()
+> nameEx("dcorMatrixNA")
+> ### * dcorMatrixNA
+> 
+> flush(stderr()); flush(stdout())
+> 
+> ### Name: dcorMatrixNA
+> ### Title: Compute Distance Correlation Matrix with Missing Values in Data.
+> ### Aliases: dcorMatrixNA
+> 
+> ### ** Examples
+> 
+> ## Load data so that samples (countries) are columns and econometric
+> ##   variables are rows.
+> M <- t(LifeCycleSavings)
+> ## Insert a missing value.
+> M[1,1] <- NA
+> ## Compute all-pairs distance correlation between econometric variables.
+> Results <- dcorMatrixNA(M)
+Computing distance correlation up through variable 1 of 5...
+> 
+> 
+> 
+> cleanEx()
+> nameEx("dcorSingle")
+> ### * dcorSingle
+> 
+> flush(stderr()); flush(stdout())
+> 
+> ### Name: dcorSingle
+> ### Title: Single Pair Distance Correlation.
+> ### Aliases: dcorSingle
+> 
+> ### ** Examples
+> 
+> ## Load data so that samples (countries) are columns and econometric
+> ##   variables are rows.
+> M <- t(LifeCycleSavings)
+> ## Compute distance correlation between two econometric variables.
+> d <- dcorSingle(M[1,], M[2,])
+> 
+> 
+> 
+> ### * <FOOTER>
+> ###
+> options(digits = 7L)
+> base::cat("Time elapsed: ", proc.time() - base::get("ptime", pos = 'CheckExEnv'),"\n")
+Time elapsed:  0.133 0.005 0.143 0 0 
+> grDevices::dev.off()
+null device 
+          1 
+> ###
+> ### Local variables: ***
+> ### mode: outline-minor ***
+> ### outline-regexp: "\\(> \\)?### [*]+" ***
+> ### End: ***
+> quit('no')

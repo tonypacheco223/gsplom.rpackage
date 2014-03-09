@@ -1,0 +1,9 @@
+citHeader("The Glyph SPLOM paper is currently conditionally accepted and will be published shortly.")
+
+citEntry(entry = "Article",
+         "author" = "Andrew Yates and Allison Webb and Helen Chamberlin and Kun Huang and Raghu Machiraju",
+         "title" = "Visualizing Multidimensional Data with Glyph SPLOMs",
+         year = "2014",
+         journal = "Eurovis2014",
+         textVersion = "A. Yates, A. Webb, H. Chamberlin, K. Huang, & R. Machiraju. Visualizing Multidimensional Data with Glyph SPLOMs. Conditionally accepted to EuroVis 2014."
+         )
