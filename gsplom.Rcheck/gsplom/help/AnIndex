@@ -1,3 +1,5 @@
+adaptiveRegress	adaptiveRegress
 dcorMatrix	dcorMatrix
 dcorMatrixNA	dcorMatrixNA
 dcorSingle	dcorSingle
+logicClassMatrix	logicClassMatrix

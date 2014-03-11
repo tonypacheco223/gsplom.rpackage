@@ -24,6 +24,23 @@ Type 'q()' to quit R.
 > 
 > base::assign(".oldSearch", base::search(), pos = 'CheckExEnv')
 > cleanEx()
+> nameEx("adaptiveRegress")
+> ### * adaptiveRegress
+> 
+> flush(stderr()); flush(stdout())
+> 
+> ### Name: adaptiveRegress
+> ### Title: High/Low binary partition by adaptive regression.
+> ### Aliases: adaptiveRegress
+> 
+> ### ** Examples
+> 
+> v <- sample(1:100)
+> R <- adaptiveRegress(v)
+> 
+> 
+> 
+> cleanEx()
 > nameEx("dcorMatrix")
 > ### * dcorMatrix
 > 
@@ -88,11 +105,30 @@ Computing distance correlation up through variable 1 of 5...
 > 
 > 
 > 
+> cleanEx()
+> nameEx("logicClassMatrix")
+> ### * logicClassMatrix
+> 
+> flush(stderr()); flush(stdout())
+> 
+> ### Name: logicClassMatrix
+> ### Title: Compute Logical Dependency Class Matrix.
+> ### Aliases: logicClassMatrix
+> 
+> ### ** Examples
+> 
+> M <- t(LifeCycleSavings)
+> CLS <- logicClassMatrix(M, intervals=apply(M,1,sd)/2, frac.conf=0.2)
+> M[1,1] <- NA
+> CLS.NA <- logicClassMatrix(M, intervals=apply(M,1,function(x)sd(x,na.rm=TRUE))/2, frac.conf=0.2)
+> 
+> 
+> 
 > ### * <FOOTER>
 > ###
 > options(digits = 7L)
 > base::cat("Time elapsed: ", proc.time() - base::get("ptime", pos = 'CheckExEnv'),"\n")
-Time elapsed:  0.154 0.006 0.166 0 0 
+Time elapsed:  0.151 0.007 0.175 0 0 
 > grDevices::dev.off()
 null device 
           1 

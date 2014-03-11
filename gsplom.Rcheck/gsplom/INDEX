@@ -1,4 +1,7 @@
+adaptiveRegress         High/Low binary partition by adaptive
+                        regression.
 dcorMatrix              Compute Distance Correlation Matrix.
 dcorMatrixNA            Compute Distance Correlation Matrix with
                         Missing Values in Data.
 dcorSingle              Single Pair Distance Correlation.
+logicClassMatrix        Compute Logical Dependency Class Matrix.
