@@ -6,7 +6,7 @@
 }
 \description{
   A slower method of computing all-pairs-rows distance correlation
-  that excludes samples with at least one missing value.
+  that excludes samples with at least one missing value in each computation.
 }
 \usage{
 dcorMatrixNA(M, do.rank = FALSE, verbose = TRUE)

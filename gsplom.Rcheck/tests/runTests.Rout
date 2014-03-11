@@ -23,7 +23,7 @@ Computing distance correlation up through variable 1 of 20...
 Computing distance correlation up through variable 1 of 20...
 
 
-RUNIT TEST PROTOCOL -- Mon Mar 10 23:40:16 2014 
+RUNIT TEST PROTOCOL -- Tue Mar 11 16:39:36 2014 
 *********************************************** 
 Number of test functions: 4 
 Number of errors: 0 
@@ -37,6 +37,7 @@ Number of errors: 0
 Number of failures: 0 
 There were 19 warnings (use warnings() to see them)
 > 
+> 
 > proc.time()
    user  system elapsed 
-  1.674   0.078   1.805 
+  1.696   0.077   1.953 
