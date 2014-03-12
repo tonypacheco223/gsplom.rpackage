@@ -1,8 +1,5 @@
-construct_gsplom
+Glyph Scatterplot Matrix (gsplom)
 ================
-
-Rebuild GSPLOM package from scratch
-
 
 *Build package into tarball that can be distributed for installation:*
 ```
@@ -18,3 +15,6 @@ R CMD check gsplom_*
 ```
 R CMD install gsplom_*
 ```
+
+Package documentation built at:
+gsplom.Rcheck/gsplom-manual.pdf
