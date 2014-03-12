@@ -17,4 +17,6 @@ R CMD install gsplom_*
 ```
 
 Package documentation built at:
-[gsplom.Rcheck/gsplom-manual.pdf](https://github.com/andrewdyates/gsplom.rpackage/blob/master/gsplom.Rcheck/gsplom-manual.pdf)
+[gsplom.Rcheck/gsplom-manual.pdf](https://github.com/andrewdyates/gsplom.rpackage/blob/master/gsplom.Rcheck/gsplom-manual.pdf?raw=true)
+
+&copy; 2014 Andrew Yates
