@@ -4,7 +4,7 @@
 * using session charset: UTF-8
 * checking for file ‘gsplom/DESCRIPTION’ ... OK
 * checking extension type ... Package
-* this is package ‘gsplom’ version ‘0.0.1’
+* this is package ‘gsplom’ version ‘0.99.0’
 * checking package namespace information ... OK
 * checking package dependencies ... OK
 * checking if this is a source package ... OK
