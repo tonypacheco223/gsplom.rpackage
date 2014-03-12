@@ -1,13 +1,13 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  11 MAR 2014 16:39
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  12 MAR 2014 02:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/private/var/folders/ds/8g6jlbhd2ds9nt_f2zykz11h0000gn/T/Rtmp6Y1UVy/Rd2pdf3de
-43eae56ee/Rd2.tex
+**/private/var/folders/ds/8g6jlbhd2ds9nt_f2zykz11h0000gn/T/Rtmp4IkWPF/Rd2pdf823
+01f4570d7/Rd2.tex
 
-(/private/var/folders/ds/8g6jlbhd2ds9nt_f2zykz11h0000gn/T/Rtmp6Y1UVy/Rd2pdf3de4
-3eae56ee/Rd2.tex
+(/private/var/folders/ds/8g6jlbhd2ds9nt_f2zykz11h0000gn/T/Rtmp4IkWPF/Rd2pdf8230
+1f4570d7/Rd2.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, ge
 rman-x-2012-05-30, ngerman-x-2012-05-30, afrikaans, ancientgreek, ibycus, arabi
@@ -730,41 +730,53 @@ File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 (/usr/local/texlive/2012/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 )
-Overfull \hbox (19.78088pt too wide) in paragraph at lines 248--248
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
+) [5]
+Overfull \hbox (19.78088pt too wide) in paragraph at lines 304--304
  []\T1/fi4/m/n/10 logicClassMatrix(M, thresholds=NULL, intervals=NULL, z=3, min
 .cnt=0, frac.conf=0.2)[] 
  []
 
 
-Overfull \hbox (27.71854pt too wide) in paragraph at lines 259--262
+Overfull \hbox (27.71854pt too wide) in paragraph at lines 315--318
 \T1/ptm/m/n/10 NULL. If NULL, then thresh-olds are com-puted au-to-mat-i-cally 
 us-ing \T1/fi4/m/n/10 adaptiveRegress\T1/ptm/m/n/10 . 
  []
 
-[5]
-Overfull \hbox (36.78088pt too wide) in paragraph at lines 307--307
+
+Overfull \hbox (36.78088pt too wide) in paragraph at lines 363--363
  []\T1/fi4/m/n/9 CLS.NA <- logicClassMatrix(M, intervals=apply(M,1,function(x)s
 d(x,na.rm=TRUE))/2, frac.conf=0.2)[] 
  []
 
-(./Rd2.ind [6] [7
+(./Rd2.ind [6]
+
+LaTeX Font Warning: Font shape `T1/fi4/m/it' undefined
+(Font)              using `T1/fi4/m/n' instead on input line 14.
+
+[7
 
 
 ])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 311.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 311.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 367.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 367.
  (./Rd2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 311.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 311.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 367.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 367.
 Package rerunfilecheck Info: File `Rd2.out' has not changed.
-(rerunfilecheck)             Checksum: 9B3D0A3942B69353FB5F09C15CC4EB20;324.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 311.
+(rerunfilecheck)             Checksum: C2F21275793F8230D62F79E6A3B5750A;368.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 367.
  ) 
 Here is how much of TeX's memory you used:
- 6228 strings out of 493488
- 89380 string characters out of 3141326
+ 6244 strings out of 493488
+ 89662 string characters out of 3141326
  168065 words of memory out of 3000000
- 9381 multiletter control sequences out of 15000+200000
+ 9384 multiletter control sequences out of 15000+200000
  37881 words of font info for 47 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
  38i,5n,27p,571b,586s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -776,10 +788,10 @@ exlive/2012/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/
 -dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2012/texmf-dist/font
 s/type1/urw/times/utmr8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/ur
 w/times/utmri8a.pfb>
-Output written on Rd2.pdf (7 pages, 72845 bytes).
+Output written on Rd2.pdf (7 pages, 76729 bytes).
 PDF statistics:
- 156 PDF objects out of 1000 (max. 8388607)
- 139 compressed objects within 2 object streams
- 55 named destinations out of 1000 (max. 500000)
- 49 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 175 PDF objects out of 1000 (max. 8388607)
+ 158 compressed objects within 2 object streams
+ 66 named destinations out of 1000 (max. 500000)
+ 57 words of extra memory for PDF output out of 10000 (max. 10000000)
 

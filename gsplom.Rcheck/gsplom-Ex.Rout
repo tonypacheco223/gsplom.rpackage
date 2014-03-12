@@ -57,8 +57,6 @@ Type 'q()' to quit R.
 > M <- t(LifeCycleSavings)
 > ## Compute all pairs distance correlation between econometric variables.
 > DCOR <- dcorMatrix(M)
-Computing distance correlation up through sample 20 of 50...
-Computing distance correlation up through sample 40 of 50...
 > 
 > 
 > 
@@ -106,6 +104,29 @@ Computing distance correlation up through variable 1 of 5...
 > 
 > 
 > cleanEx()
+> nameEx("gsplom")
+> ### * gsplom
+> 
+> flush(stderr()); flush(stdout())
+> 
+> ### Name: gsplom
+> ### Title: Glyph SPLOM Workflow Wrapper
+> ### Aliases: gsplom gsplomCore gsplomPlot
+> 
+> ### ** Examples
+> 
+> ## Not run: 
+> ##D ## Load data so that samples (countries) are columns and econometric
+> ##D ##   variables are rows.
+> ##D M <- t(LifeCycleSavings)
+> ##D pdf("/mypath/gsplom.pdf")
+> ##D R <- gsplom(M)
+> ##D dev.off()
+> ## End(Not run)
+> 
+> 
+> 
+> cleanEx()
 > nameEx("logicClassMatrix")
 > ### * logicClassMatrix
 > 
@@ -128,7 +149,7 @@ Computing distance correlation up through variable 1 of 5...
 > ###
 > options(digits = 7L)
 > base::cat("Time elapsed: ", proc.time() - base::get("ptime", pos = 'CheckExEnv'),"\n")
-Time elapsed:  0.146 0.007 0.177 0 0 
+Time elapsed:  0.146 0.007 0.158 0 0 
 > grDevices::dev.off()
 null device 
           1 

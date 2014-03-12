@@ -2,4 +2,7 @@ adaptiveRegress	adaptiveRegress
 dcorMatrix	dcorMatrix
 dcorMatrixNA	dcorMatrixNA
 dcorSingle	dcorSingle
+gsplom	gsplom
+gsplomCore	gsplom
+gsplomPlot	gsplom
 logicClassMatrix	logicClassMatrix

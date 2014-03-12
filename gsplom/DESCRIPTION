@@ -7,5 +7,5 @@ Maintainer: Andrew Yates <yates.115@osu.edu>
 Description: Glyph SPLOM is a data visualization and exploration tool like an enhanced correlation heatmap that can be used to infer directed networks from unordered, numeric data. It combines a non-linear measure of dependency strength, distance correlation, and a four-quadrant dependency class to quantify dependencies in an all-pairs dependency matrix. gsplom provides tools to efficiently compute, visualize, cluster, and analyze this matrix. 
 License: MIT + file LICENSE
 Depends: R (>= 2.14.0)
-Suggests: RUnit, BiocGenerics
+Suggests: RUnit, BiocGenerics, fastcluster
 URL: https://github.com/andrewdyates/gsplom.rpackage

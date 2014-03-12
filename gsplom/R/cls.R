@@ -74,10 +74,10 @@ logicClassMatrix <- function(M, thresholds=NULL, intervals=NULL, z=3, min.cnt=0,
   TOO.FEW <- ALL < frac.conf*ncol(M)
 
   # Dense/Sparse tests
-  SLL <- get.sparse(QLL, RL, CL, ALL, z=z, min.cnt=min.cnt)
-  SLH <- get.sparse(QLH, RL, CH, ALL, z=z, min.cnt=min.cnt)
-  SHL <- get.sparse(QHL, RH, CL, ALL, z=z, min.cnt=min.cnt)
-  SHH <- get.sparse(QHH, RH, CH, ALL, z=z, min.cnt=min.cnt)
+  SLL <- getSparse(QLL, RL, CL, ALL, z=z, min.cnt=min.cnt)
+  SLH <- getSparse(QLH, RL, CH, ALL, z=z, min.cnt=min.cnt)
+  SHL <- getSparse(QHL, RH, CL, ALL, z=z, min.cnt=min.cnt)
+  SHH <- getSparse(QHH, RH, CH, ALL, z=z, min.cnt=min.cnt)
 
   # Assign class enumerations.
   CLS <- matrix(0, nrow(M), nrow(M))
@@ -94,7 +94,7 @@ logicClassMatrix <- function(M, thresholds=NULL, intervals=NULL, z=3, min.cnt=0,
   CLS
 }
 
-get.sparse <- function(Q, Row, Col, All, z=3, min.cnt=0) {
+getSparse <- function(Q, Row, Col, All, z=3, min.cnt=0) {
   Exp <- Row*Col/All
   Z <- (Exp-Q) / sqrt(Exp)  # marginal probability test
   D <- Q <= min.cnt         # number of points test

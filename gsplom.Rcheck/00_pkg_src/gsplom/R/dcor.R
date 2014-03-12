@@ -24,7 +24,7 @@ dcorMatrix <- function(M, verbose=TRUE) {
   
   # upper triangle of DCOV**2 matrix
   for (j in 1:(n-1)) {
-    if(verbose && j%%20==0)
+    if(verbose && j%%100==0)
       message(sprintf("Computing distance correlation up through sample %d of %d...", j, n))
     A <- abs(M[,(j+1):n]-M[,j]) - U[,(j+1):n] - U[,j] + UU
     DCOV <- DCOV + A %*% t(A)

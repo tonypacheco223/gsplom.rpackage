@@ -4,4 +4,5 @@ dcorMatrix              Compute Distance Correlation Matrix.
 dcorMatrixNA            Compute Distance Correlation Matrix with
                         Missing Values in Data.
 dcorSingle              Single Pair Distance Correlation.
+gsplom                  Glyph SPLOM Workflow Wrapper
 logicClassMatrix        Compute Logical Dependency Class Matrix.
