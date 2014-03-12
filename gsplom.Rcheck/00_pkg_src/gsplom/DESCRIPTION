@@ -9,4 +9,4 @@ License: MIT + file LICENSE
 Depends: R (>= 2.14.0)
 Suggests: RUnit, BiocGenerics, fastcluster
 URL: https://github.com/andrewdyates/gsplom.rpackage
-Packaged: 2014-03-12 09:29:47 UTC; z
+Packaged: 2014-03-12 10:10:13 UTC; z
