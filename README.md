@@ -13,3 +13,8 @@ R CMD build gsplom
 ```
 R CMD check gsplom_*
 ```
+
+*Install package*
+```
+R CMD install gsplom_*
+```
