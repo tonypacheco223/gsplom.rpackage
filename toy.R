@@ -7,18 +7,22 @@ CLS.Dist <- logicClassDist(CLS)
 DCOR.Dist <- as.matrix(dist(DCOR))
 DIST <- DCOR.Dist + sqrt(CLS.Dist)/2
 
-# vector with labels
-pdf("~/Desktop/pix_glyph.pdf", width=10, height=10)
+# Vector image with labels
+# WARNING: vector images with labels can be unwieldily to render to screen for large (10k+) GSPLOMs!
+#  consider rendering single pixel variants at scale.
+pdf("~/Desktop/pix_glyph.pdf", width=10, height=10) # dimensions in inches
 gsplom(M)
 dev.off()
 
-# rasterized, pixel perfect images
-png("~/Desktop/pix_glyph.png", nrow(M), nrow(M))
+# Rasterized, pixel perfect images
+# Single pixel image, colors only, no glyphs or labels
+png("~/Desktop/pix_glyph.png", width=nrow(M), height=nrow(M)) # dimensions in pixels
 par(mar = c(0,0,0,0))
 gsplom(M, doLabels=FALSE, useRaster=TRUE)
 dev.off()
 
-png("~/Desktop/pix_single.png", nrow(M), nrow(M))
+# 2x2 pixel image with glyphs
+png("~/Desktop/pix_single.png", width=nrow(M)*2, height=nrow(M)*2) # dimensions in pixels
 par(mar = c(0,0,0,0))
 gsplom(M, doLabels=FALSE, useRaster=TRUE, asGlyphs=FALSE)
 dev.off()
