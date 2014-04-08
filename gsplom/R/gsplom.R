@@ -28,6 +28,7 @@ gsplom <- function(M, ...) {
   R <- gsplomCore(DCOR, CLS, ...)
   R$CLS <- CLS
   R$DCOR <- DCOR
+  R
 }
 
 gsplomCore <- function(DCOR, CLS, doLabels=TRUE, ...) {
