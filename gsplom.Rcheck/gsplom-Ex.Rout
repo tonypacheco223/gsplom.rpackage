@@ -149,7 +149,7 @@ Computing distance correlation up through variable 1 of 5...
 > ###
 > options(digits = 7L)
 > base::cat("Time elapsed: ", proc.time() - base::get("ptime", pos = 'CheckExEnv'),"\n")
-Time elapsed:  0.153 0.007 0.22 0 0 
+Time elapsed:  0.15 0.008 0.205 0 0 
 > grDevices::dev.off()
 null device 
           1 

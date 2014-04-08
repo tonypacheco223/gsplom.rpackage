@@ -9,4 +9,4 @@ License: Artistic-2.0
 Depends: R (>= 2.14.0)
 Suggests: RUnit, BiocGenerics, fastcluster
 URL: https://github.com/andrewdyates/gsplom.rpackage
-Packaged: 2014-03-12 10:39:52 UTC; z
+Packaged: 2014-04-08 20:45:06 UTC; z
