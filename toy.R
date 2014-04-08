@@ -41,15 +41,15 @@ dev.off()
 
 # Rasterized, pixel perfect images
 # Single pixel image, colors only, no glyphs or labels
-png("~/Desktop/pix_glyph.png", width=nrow(M), height=nrow(M)) # dimensions in pixels
+png("~/Desktop/pix_single.png", width=nrow(M), height=nrow(M)) # dimensions in pixels
 par(mar = c(0,0,0,0))
-R <- gsplom(M, doLabels=FALSE, useRaster=TRUE)
+R <- gsplom(M, doLabels=FALSE, useRaster=TRUE, asGlyphs=FALSE)
 dev.off()
 
 # 2x2 pixel image with glyphs
-png("~/Desktop/pix_single.png", width=nrow(M)*2, height=nrow(M)*2) # dimensions in pixels
+png("~/Desktop/pix_glyph.png", width=nrow(M)*2, height=nrow(M)*2) # dimensions in pixels
 par(mar = c(0,0,0,0))
-R <- gsplom(M, doLabels=FALSE, useRaster=TRUE, asGlyphs=FALSE)
+R <- gsplom(M, doLabels=FALSE, useRaster=TRUE, asGlyphs=TRUE)
 dev.off()
 
 # Don't need the gsplom plot, only logical classes and distance correlations?
