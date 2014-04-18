@@ -123,7 +123,7 @@ toGlyph <- function(z, bg=NA) {
     r <- matrix(c(z,z,bg,z), nrow=2)
   if(z >= 6 && z < 7)  # NC    (negative correlation)   
     r <- matrix(c(z,bg,bg,z), nrow=2)
-  if(z >= 7 && z < 8)  # LIH   (low x implies low y)   
+  if(z >= 7 && z < 8)  # LIH   (low x implies high y) 
     r <- matrix(c(z,bg,z,z), nrow=2)
   r
 }
