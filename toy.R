@@ -1,7 +1,12 @@
+# Only needed for a sample test
 library(gsplom)
 # Load a sample dataset built into R
-M <- t(LifeCycleSavings)
+#M <- t(LifeCycleSavings)
 
+#----------------------------------------------------------------------
+who_dataset <- read.csv("cleaned_WHO_dataset.csv", row.names= "Country")
+#Take the transpose
+M <- t(who_dataset)
 # Vector image with labels
 # WARNING: vector images with labels can be unwieldily to render to screen for large (10k+) GSPLOMs!
 #  consider rendering single pixel variants at scale.
